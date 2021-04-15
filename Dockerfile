@@ -9,7 +9,7 @@ RUN apt-get install nano -y
 RUN apt-get install net-tools
 RUN apt-get install lib32z1 -y
 RUN apt-get install gcc-multilib -y
-RUN wget  -C https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/1.7.2/xampp-linux-1.7.2.tar.gz
+RUN wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/1.7.2/xampp-linux-1.7.2.tar.gz
 RUN sudo tar -vzxf xampp-linux-1.7.2.tar.gz
 
 #RUN /bin/sh -c "cd opt"
